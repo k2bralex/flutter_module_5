@@ -1,16 +1,10 @@
 # flutter_module_5
 
-A new Flutter project.
+App in Material style.
 
-## Getting Started
+Added to the app:
+- AppBar, Drawer, BottomNavigationBar, TabBarView, as well as the floatActionButton button, which, when pressed, will open the issuing BottomSheet.
+- three ListTile widgets with the text Profile, Images, Files added to the Drawer. The buttons "Exit" and "Register" are added to the bottom of the Drawer in one row.
+- endDrawer added, standard menu icon replaced with Profile icon. Opening endDrawer by clicking on this icon is configured. User centered avatar with any image and text below added
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
