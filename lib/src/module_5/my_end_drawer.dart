@@ -16,7 +16,10 @@ class MyEndDrawer extends StatelessWidget {
             backgroundImage: NetworkImage(
                 "https://phantom-marca.unidadeditorial.es/be0b6ac3dec349cb78189a06f0f7bfb5/resize/1320/f/webp/assets/multimedia/imagenes/2021/02/15/16133897437238.jpg"),
           ),
-          Container(margin: const EdgeInsets.only(top: 10), child: const Text("Username")),
+          Container(
+            margin: const EdgeInsets.only(top: 10),
+            child: const Text("Username"),
+          ),
         ],
       ),
     );

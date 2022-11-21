@@ -2,30 +2,22 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_module_5/src/module_5/homepage_module5.dart';
 
-void main() => runApp(const FlutterModules());
+void main() => runApp(const MyApp());
 
-class FlutterModules extends StatelessWidget {
-  const FlutterModules({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Basics',
+      title: 'Flutter',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: const MyHomePage(title: ''),
+      home: const MyHomePage(title: "Module 5"),
     );
   }
 }
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-  final String title;
-  @override
-  State<MyHomePage> createState() => MyHomePageStateModule5();
-}
-
 
 
 
